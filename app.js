@@ -496,7 +496,7 @@ return vaMSG;
 
     app.get('/ethBtcTrans2', function (req, res) {
     //var id = req.query.id;
-    var sql1 = 'SELECT token,  COUNT(token) Token, CONCAT( DATE_FORMAT(tx_timestamp, "%M"),YEAR(tx_timestamp)) LastMonthDate FROM transactions_transaction WHERE YEAR(tx_timestamp) = YEAR(CURRENT_DATE - INTERVAL 1 MONTH) AND MONTH(tx_timestamp) = MONTH(CURRENT_DATE - INTERVAL 1 MONTH) GROUP BY token, MONTH(tx_timestamp),YEAR(tx_timestamp)';
+    var sql1 = 'SELECT token,  COUNT(token) Token, CONCAT( DATE_FORMAT(tx_timestamp, "%M"),YEAR(tx_timestamp)) FROM transactions_transaction GROUP BY token, MONTH(tx_timestamp),YEAR(tx_timestamp)';
 
     db.query(sql1, function (err, result, fields) {
       if (err) throw err;
