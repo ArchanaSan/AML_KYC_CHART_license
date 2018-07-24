@@ -1,0 +1,209 @@
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #aabbcc;
+}
+.singleform{
+  text-align: center;
+}
+.actions {
+  margin-top: 10px;
+}
+
+
+/* table start*/
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0 ;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+table caption {
+  font-size: 1.5em;
+
+}
+
+table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #867979;
+  /*padding: .55em;*/
+}
+
+table th,
+table td {
+/*  padding-left: 5%;*/
+  text-align: center;
+  border-left: 1px solid #867979;
+  border-right: 1px solid #867979;
+}
+
+table th {
+  font-size: .85em;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  background-color: #DCDCDC;
+}
+
+@media screen and (max-width: 900px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+
+  /*table td::before {*/
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+  /*  content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }*/
+}
+/*table ends*/
+
+.Mcontainer {
+  text-align: center;
+}
+.mainheader {
+  background-color: #aabbcc;
+}
+h3,h2,h1 {
+  text-align: center;
+}
+p {
+  text-align: left;
+}
+/*.row col-xs-6 {
+  justify-items: center;
+}*/
+.row{
+  padding-left: 13%;
+  padding-right: : 10%;
+  text-align: center;
+}
+label{
+  text-align: left;
+}
+footer {
+      background-color: #aabbcc;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      spacing-top:10px;
+      color: #fff;
+      padding-top:15px;
+      padding-bottom:15px;
+      font-size: 15px;
+      }
+.footer p{
+  text-align: center;
+  color: #000;
+}
+      /*Strip the ul of padding and list styling*/
+      /*Nav starts*/
+.navbar {
+
+        background-color: #333;
+        font-family: Arial, Helvetica, sans-serif;
+		float: left;
+		text-align: center;
+		padding: 0 30% 0 30%;
+    }
+      .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  .dropbtn {
+    background-color: #4c94af;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: left;
+    display: inline-block;
+}
+
+.dropdown-content {
+
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ccc9cf}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #003399;
+}
+/*nav ends*/
+.trans{
+  text-align: center;
+  margin: 20px;
+}
+.trans a{
+  font-size: 2.2em;
+  color: #71625e;
+}
